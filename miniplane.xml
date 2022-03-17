@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<generic>
+    <output>
+        <binary_mode>false</binary_mode>
+        <line_separator>newline</line_separator>
+        <var_separator>newline</var_separator>
+        <preamble></preamble>
+        <postamble></postamble>
+
+        <chunk>
+            <name>Pitch</name>
+            <node>/orientation/pitch-deg</node>
+			<type>float</type>
+            <format>P%f</format>
+        </chunk>
+		
+		<chunk>
+            <name>Roll</name>
+            <node>/orientation/roll-deg</node>
+			<type>float</type>
+            <format>R%f</format>
+        </chunk>
+    </output>
+</generic>
+
+</PropertyList>
